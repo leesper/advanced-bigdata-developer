@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cb086f7-c9b5-4769-81ba-d09f916672f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hdfs_day02/hdfs_day02.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdfs_day02/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdfs_day02/src/test/java/com/kkb/hdfs/HDFSOperate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,17 +15,36 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hdfs_day02/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1445">
+            <state relative-caret-position="725">
               <caret line="85" selection-start-line="85" selection-end-line="85" />
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hdfs_day02/src/test/java/com/kkb/hdfs/HDFSOperate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="112" column="62" selection-start-line="112" selection-start-column="62" selection-end-line="112" selection-end-column="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -36,6 +54,7 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/hdfs_day02/pom.xml" />
+        <option value="$PROJECT_DIR$/hdfs_day02/src/test/java/com/kkb/hdfs/HDFSOperate.java" />
       </list>
     </option>
   </component>
@@ -45,12 +64,15 @@
     <option name="width" value="1403" />
     <option name="height" value="877" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -64,19 +86,51 @@
               <item name="bigdata05" type="462c0819:PsiDirectoryNode" />
               <item name="hdfs_day02" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="bigdata05" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigdata05" type="462c0819:PsiDirectoryNode" />
+              <item name="hdfs_day02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigdata05" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigdata05" type="462c0819:PsiDirectoryNode" />
+              <item name="hdfs_day02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigdata05" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigdata05" type="462c0819:PsiDirectoryNode" />
+              <item name="hdfs_day02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigdata05" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigdata05" type="462c0819:PsiDirectoryNode" />
+              <item name="hdfs_day02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hdfs" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579273995406" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579576975087" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
@@ -91,6 +145,97 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="JUnit.HDFSOperate.getFileFromHDFS">
+    <configuration name="HDFSOperate.deleteFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hdfs_day02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kkb.hdfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kkb.hdfs" />
+      <option name="MAIN_CLASS_NAME" value="com.kkb.hdfs.HDFSOperate" />
+      <option name="METHOD_NAME" value="deleteFile" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HDFSOperate.downloadFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hdfs_day02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kkb.hdfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kkb.hdfs" />
+      <option name="MAIN_CLASS_NAME" value="com.kkb.hdfs.HDFSOperate" />
+      <option name="METHOD_NAME" value="downloadFile" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HDFSOperate.getFileFromHDFS" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hdfs_day02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kkb.hdfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kkb.hdfs" />
+      <option name="MAIN_CLASS_NAME" value="com.kkb.hdfs.HDFSOperate" />
+      <option name="METHOD_NAME" value="getFileFromHDFS" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HDFSOperate.renameFIle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hdfs_day02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kkb.hdfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kkb.hdfs" />
+      <option name="MAIN_CLASS_NAME" value="com.kkb.hdfs.HDFSOperate" />
+      <option name="METHOD_NAME" value="renameFIle" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HDFSOperate.showFileInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hdfs_day02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kkb.hdfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kkb.hdfs" />
+      <option name="MAIN_CLASS_NAME" value="com.kkb.hdfs.HDFSOperate" />
+      <option name="METHOD_NAME" value="showFileInfo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.HDFSOperate.getFileFromHDFS" />
+        <item itemvalue="JUnit.HDFSOperate.showFileInfo" />
+        <item itemvalue="JUnit.HDFSOperate.renameFIle" />
+        <item itemvalue="JUnit.HDFSOperate.deleteFile" />
+        <item itemvalue="JUnit.HDFSOperate.downloadFile" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -102,46 +247,80 @@
       <option name="presentableId" value="Default" />
       <updated>1579265992118</updated>
       <workItem from="1579265995913" duration="1117000" />
+      <workItem from="1579433884112" duration="7738000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="HDFSOperate_mkdirToHdfs - 2020.01.19 at 20h 04m 30s.xml">
+      <configuration name="HDFSOperate.mkdirToHdfs" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HDFSOperate_mkdirWithUser - 2020.01.19 at 20h 13m 05s.xml">
+      <configuration name="HDFSOperate.mkdirWithUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HDFSOperate_uploadFile - 2020.01.21 at 09h 39m 23s.xml">
+      <configuration name="HDFSOperate.uploadFile" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HDFSOperate_downloadFile - 2020.01.21 at 09h 57m 20s.xml">
+      <configuration name="HDFSOperate.downloadFile" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HDFSOperate_deleteFile - 2020.01.21 at 10h 05m 18s.xml">
+      <configuration name="HDFSOperate.deleteFile" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HDFSOperate_renameFIle - 2020.01.21 at 10h 05m 33s.xml">
+      <configuration name="HDFSOperate.renameFIle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HDFSOperate_showFileInfo - 2020.01.21 at 10h 24m 11s.xml">
+      <configuration name="HDFSOperate.showFileInfo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HDFSOperate_getFileFromHDFS - 2020.01.21 at 11h 16m 15s.xml">
+      <configuration name="HDFSOperate.getFileFromHDFS" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HDFSOperate_getFileFromHDFS - 2020.01.21 at 11h 19m 09s.xml">
+      <configuration name="HDFSOperate.getFileFromHDFS" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HDFSOperate_getFileFromHDFS - 2020.01.21 at 11h 19m 30s.xml">
+      <configuration name="HDFSOperate.getFileFromHDFS" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1117000" />
+    <option name="totallyTimeSpent" value="8855000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="38" y="23" width="1403" height="877" extended-state="1" />
+    <frame x="38" y="23" width="1403" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24946544" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24946544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="UI Designer" order="6" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29280397" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Cargo" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Cargo" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Capture Analysis" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,19 +334,126 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.6.0-cdh5.14.2/hadoop-common-2.6.0-cdh5.14.2.jar!/org/apache/hadoop/fs/FileSystem.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="604" column="28" selection-start-line="604" selection-start-column="28" selection-end-line="604" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/hdfs_day02/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1445">
+        <state relative-caret-position="725">
           <caret line="85" selection-start-line="85" selection-end-line="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.6.0-cdh5.14.2/hadoop-common-2.6.0-cdh5.14.2.jar!/org/apache/hadoop/fs/LocatedFileStatus.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+          <folding>
+            <element signature="e#1402#1403#0" expanded="true" />
+            <element signature="e#1439#1440#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1259">
+          <caret line="274" column="11" selection-start-line="274" selection-start-column="11" selection-end-line="274" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hdfs_day02/src/test/java/com/kkb/hdfs/HDFSOperate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="112" column="62" selection-start-line="112" selection-start-column="62" selection-end-line="112" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>hdfs_day02</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
