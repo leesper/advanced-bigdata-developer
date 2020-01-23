@@ -30,3 +30,32 @@
 10. 调用DFSOutputStream的close()方法
 11. 客户端远程过程调用namenode的RPC complete()，告知namenode传输完成
 
+## 4. 容错原理
+
+数据传输过程中，如果datanode2突然挂掉了，HDFS会启动如下步骤进行容错。
+
+1. 将ack queue队列中所有的packet放回data queue队列
+2. HDFS client向namenode发起RPC调用updateBlockForPipeline()，为当前block生成新版本ts1（本质是时间戳）
+3. 故障datanode2从pipeline中删除
+4. DFSDataOutputStream发起RPC调用namenode的getAdditionalDatanode()方法，让namenode重新分配datanode，比如是datanode4
+5. DFSDataOutputStream将dn1，dn2和dn4组成新管道，更新上面的block版本为ts1
+6. HDFS client通知dn1和dn3将其上已完成传输的block数据拷贝到dn4，上，至此三者所获取的数据保持一致
+7. 新的数据管道建立后，DFSDataOutputStream调用upadatePipeline() RPC调用更新namenode元数据
+8. HDFS client按正常写入流程完成文件上传
+9. 故障dn2重启后，namenode发现它上面的block时间戳是老的，就会通知dn2将其删除
+
+# HDFS读文件流程
+
+![](./hdfs_read.png)
+
+1. HDFS client向namenode通过远程过程调用请求下载文件
+2. namenode返回目标文件元数据
+3. HDFS client根据“先就近，后随机”的原则选择datanode，请求读取数据
+4. datanode开始以packet为单位传输数据给客户端
+5. 客户端以packet为单位接收，先本地缓存然后写入目标文件
+6. 客户端再向其他datanode请求下一个block，重复上述过程
+
+# 元数据冷备份机制
+
+
+
