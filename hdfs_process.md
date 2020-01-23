@@ -57,5 +57,17 @@
 
 # 元数据冷备份机制
 
+![](./hdfs_snn.png)
 
+namenode负责HDFS集群的元数据管理，要保证快速检索，namenode必须将数据放到内存中，但一旦断电或者故障，元数据会全部丢失，因此还必须在磁盘上做持久化。HDFS集群做元数据持久化的方式是edits.log+FSImage。edits.log存储近期的操作，FSImage存储以前的操作，这样是为了尽可能地保障namenode的启动速度。
+
+1. 每隔一分钟secondarynamenode会向namenode发起1次检查点请求
+2. 当发现edits.log中记录超过100w条或者时间达到一个小时，就会启动检查点机制
+3. snn向nn请求滚动生成新的edits_inprogress_XX.log，新的对HDFS的操作可以写入这个新文件中
+4. snn通过HTTP GET请求读取nn中的FSImage和原来的edits.log
+5. snn读取FSImage到内存，然后执行edits.log中的操作，创建一个新的FSImage.ckpt
+6. snn通过HTTP PUT将新的FSImage.ckpt发送到nn
+7. nn用新的FSImage替换旧的，更新记录检查点时间
+8. 此时nn拥有新的FSImage和更小的edits.log
+9. snn一般单独部署一台机器，因为它要占用大量CPU、内存和磁盘空间来执行合并操作
 
