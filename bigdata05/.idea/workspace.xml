@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cb086f7-c9b5-4769-81ba-d09f916672f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mr_day03/mr_day03.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mr_day03/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo01/wordcount/WordCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo01/wordcount/WordCountMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo01/wordcount/WordCountReducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo01/wordcount/WordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo01/wordcount/WordCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo01/wordcount/WordCountReducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo01/wordcount/WordCountReducer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo01/wordcount/WordCountMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="223">
+              <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -38,17 +33,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo01/wordcount/WordCountReducer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+            <state relative-caret-position="391">
+              <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo01/wordcount/WordCount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+            <state relative-caret-position="153">
+              <caret line="9" column="63" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -73,8 +71,26 @@
         <option value="$PROJECT_DIR$/hdfs_day02/src/test/java/com/kkb/hdfs/HDFSOperate.java" />
         <option value="$PROJECT_DIR$/mr_day03/pom.xml" />
         <option value="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo01/wordcount/WordCountMapper.java" />
+        <option value="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo01/wordcount/WordCountReducer.java" />
+        <option value="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo01/wordcount/WordCount.java" />
       </list>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="mr_day03" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="mr_day03" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="38" />
@@ -143,12 +159,12 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579938993154" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579941875159" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
@@ -163,7 +179,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HDFSOperate.getFileFromHDFS">
+  <component name="RunManager" selected="Application.WordCount">
+    <configuration name="WordCount" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.kkb.mr.demo01.wordcount.WordCount" />
+      <module name="mr_day03" />
+      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/../data/wordcount $PROJECT_DIR$/../data/wordcount/out" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HDFSOperate.deleteFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hdfs_day02" />
       <extension name="coverage">
@@ -244,6 +268,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.WordCount" />
+      <item itemvalue="JUnit.HDFSOperate.deleteFile" />
+      <item itemvalue="JUnit.HDFSOperate.downloadFile" />
+      <item itemvalue="JUnit.HDFSOperate.getFileFromHDFS" />
+      <item itemvalue="JUnit.HDFSOperate.renameFIle" />
+      <item itemvalue="JUnit.HDFSOperate.showFileInfo" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.HDFSOperate.getFileFromHDFS" />
@@ -265,7 +297,7 @@
       <option name="presentableId" value="Default" />
       <updated>1579265992118</updated>
       <workItem from="1579265995913" duration="1117000" />
-      <workItem from="1579433884112" duration="9375000" />
+      <workItem from="1579433884112" duration="11721000" />
     </task>
     <servers />
   </component>
@@ -302,11 +334,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10492000" />
+    <option name="totallyTimeSpent" value="12838000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="38" y="23" width="1403" height="877" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24946544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -332,7 +363,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.2344975" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Cargo" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -401,20 +432,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo01/wordcount/WordCountReducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo01/wordcount/WordCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-core/2.6.0-mr1-cdh5.14.2/hadoop-core-2.6.0-mr1-cdh5.14.2.jar!/org/apache/hadoop/mapreduce/TaskInputOutputContext.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -424,11 +441,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo01/wordcount/WordCountMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="223">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo01/wordcount/WordCountReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo01/wordcount/WordCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="63" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
         </state>
       </provider>
     </entry>
