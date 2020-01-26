@@ -12,6 +12,9 @@ public class FlowBean implements Writable {
     private Integer upCountFlow;
     private Integer downCountFlow;
 
+    // used by deserialization
+    public FlowBean() {}
+
     public Integer getUpFlow() {
         return upFlow;
     }
