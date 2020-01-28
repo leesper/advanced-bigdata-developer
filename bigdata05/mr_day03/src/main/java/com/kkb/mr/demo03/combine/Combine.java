@@ -38,7 +38,7 @@ public class Combine extends Configured implements Tool {
 
     public static void main(String[] args) throws Exception {
         Configuration conf = new Configuration();
-        ToolRunner.run(conf, new Combine(), args);
+        System.exit(ToolRunner.run(conf, new Combine(), args));
     }
 }
 
