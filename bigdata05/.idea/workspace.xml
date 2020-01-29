@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cb086f7-c9b5-4769-81ba-d09f916672f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo06/inputformat/MyInputFormat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo06/inputformat/MyInputFormatMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo06/inputformat/MyMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo06/inputformat/MyRecordReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo07/partition/CustomPartitioner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo07/partition/FlowBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo07/partition/FlowMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo07/partition/FlowReducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo07/partition/PartitionMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mr_day03/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/mr_day03/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,37 +23,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo06/inputformat/MyInputFormat.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="12" column="81" selection-start-line="12" selection-start-column="81" selection-end-line="12" selection-end-column="81" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#938#939#0" expanded="true" />
-                <element signature="e#997#998#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo06/inputformat/MyMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo06/inputformat/MyInputFormatMain.java">
+        <entry file="file://$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo07/partition/PartitionMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="26" column="53" lean-forward="true" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+            <state relative-caret-position="323">
+              <caret line="27" column="54" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo07/partition/CustomPartitioner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,13 +45,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo06/inputformat/MyRecordReader.java">
+        <entry file="file://$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo07/partition/FlowMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="57" column="73" lean-forward="true" selection-start-line="57" selection-start-column="73" selection-end-line="57" selection-end-column="73" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -109,6 +91,10 @@
         <option value="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo06/inputformat/MyInputFormat.java" />
         <option value="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo06/inputformat/MyMapper.java" />
         <option value="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo06/inputformat/MyInputFormatMain.java" />
+        <option value="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo07/partition/FlowMapper.java" />
+        <option value="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo07/partition/CustomPartitioner.java" />
+        <option value="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo07/partition/FlowMain.java" />
+        <option value="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo07/partition/PartitionMain.java" />
       </list>
     </option>
   </component>
@@ -194,7 +180,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mr" type="462c0819:PsiDirectoryNode" />
-              <item name="NLine" type="462c0819:PsiDirectoryNode" />
+              <item name="serialize" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bigdata05" type="b2602c69:ProjectViewProjectNode" />
@@ -204,7 +190,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mr" type="462c0819:PsiDirectoryNode" />
-              <item name="inputformat" type="462c0819:PsiDirectoryNode" />
+              <item name="partition" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -215,13 +201,18 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580221354468" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580261403344" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo07/partition" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -378,7 +369,7 @@
       <option name="presentableId" value="Default" />
       <updated>1579265992118</updated>
       <workItem from="1579265995913" duration="1117000" />
-      <workItem from="1579433884112" duration="31831000" />
+      <workItem from="1579433884112" duration="33072000" />
     </task>
     <servers />
   </component>
@@ -415,11 +406,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32948000" />
+    <option name="totallyTimeSpent" value="34189000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="38" y="23" width="1403" height="877" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.24324325" visible="true" weight="0.25944406" />
       <window_info id="Structure" order="1" sideWeight="0.7567568" side_tool="true" weight="0.16393442" />
@@ -445,7 +435,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.20598717" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.2344975" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.2344975" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Cargo" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -814,6 +804,40 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo07/partition/FlowBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo07/partition/FlowReducer.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo07/partition/FlowMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo07/partition/CustomPartitioner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo07/partition/PartitionMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="27" column="54" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
         </state>
       </provider>
     </entry>

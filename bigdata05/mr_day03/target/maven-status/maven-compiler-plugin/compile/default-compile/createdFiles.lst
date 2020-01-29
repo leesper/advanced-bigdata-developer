@@ -1,3 +1,8 @@
 com/kkb/mr/demo05/NLine/NLineMain$NLineReducer.class
+com/kkb/mr/demo07/partition/FlowBean.class
+com/kkb/mr/demo07/partition/FlowMapper.class
+com/kkb/mr/demo07/partition/PartitionMain.class
+com/kkb/mr/demo07/partition/CustomPartitioner.class
+com/kkb/mr/demo07/partition/FlowReducer.class
 com/kkb/mr/demo05/NLine/NLineMain.class
 com/kkb/mr/demo05/NLine/NLineMain$NLineMapper.class
