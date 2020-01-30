@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cb086f7-c9b5-4769-81ba-d09f916672f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo08/sort/FlowSortBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo08/sort/FlowSortMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo08/sort/FlowSortMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo08/sort/FlowSortReducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo09/combiner/MyCombiner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo09/combiner/WordCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo09/combiner/WordCountMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo09/combiner/WordCountReducer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,72 +21,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo08/sort/FlowSortBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="79" column="98" selection-start-line="79" selection-start-column="98" selection-end-line="79" selection-end-column="98" />
-              <folding>
-                <element signature="e#521#522#0" expanded="true" />
-                <element signature="e#549#550#0" expanded="true" />
-                <element signature="e#591#592#0" expanded="true" />
-                <element signature="e#625#626#0" expanded="true" />
-                <element signature="e#417#418#0" expanded="true" />
-                <element signature="e#446#447#0" expanded="true" />
-                <element signature="e#482#483#0" expanded="true" />
-                <element signature="e#513#514#0" expanded="true" />
-                <element signature="e#552#553#0" expanded="true" />
-                <element signature="e#586#587#0" expanded="true" />
-                <element signature="e#627#628#0" expanded="true" />
-                <element signature="e#663#664#0" expanded="true" />
-                <element signature="e#708#709#0" expanded="true" />
-                <element signature="e#744#745#0" expanded="true" />
-                <element signature="e#793#794#0" expanded="true" />
-                <element signature="e#833#834#0" expanded="true" />
-                <element signature="e#888#889#0" expanded="true" />
-                <element signature="e#934#935#0" expanded="true" />
-                <element signature="e#993#994#0" expanded="true" />
-                <element signature="e#1043#1044#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo02/serialize/FlowReducer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="20" column="101" selection-start-line="20" selection-start-column="101" selection-end-line="20" selection-end-column="101" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo08/sort/FlowSortMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo08/sort/FlowSortReducer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo08/sort/FlowSortMain.java">
+        <entry file="file://$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo09/combiner/WordCount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="293">
+              <caret line="32" column="45" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo09/combiner/MyCombiner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -141,6 +89,11 @@
         <option value="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo08/sort/FlowSortReducer.java" />
         <option value="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo08/sort/FlowSortMain.java" />
         <option value="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo08/sort/FlowSortBean.java" />
+        <option value="$PROJECT_DIR$/mr_day03/src/main/java/demo09/combiner/WordCountReducer.java" />
+        <option value="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/combiner/WordCountReducer.java" />
+        <option value="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo09/combiner/WordCountReducer.java" />
+        <option value="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo09/combiner/MyCombiner.java" />
+        <option value="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo09/combiner/WordCount.java" />
       </list>
     </option>
   </component>
@@ -226,7 +179,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mr" type="462c0819:PsiDirectoryNode" />
-              <item name="sort" type="462c0819:PsiDirectoryNode" />
+              <item name="combiner" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -237,7 +190,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580287961529" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580349502722" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -247,6 +200,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mr_day03/src/main/java/demo09/combiner" />
       <recent name="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo08/sort" />
       <recent name="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo07/partition" />
     </key>
@@ -263,11 +217,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FlowSortMain">
+  <component name="RunManager" selected="Application.Combiner">
     <configuration name="Combine" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.kkb.mr.demo03.combine.Combine" />
       <module name="mr_day03" />
       <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/../data/1_wordcount $PROJECT_DIR$/../data/1_wordcount/out" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Combiner" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.kkb.mr.demo09.combiner.WordCount" />
+      <module name="mr_day03" />
+      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/../data/7_combiner $PROJECT_DIR$/../data/7_combiner/out" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -388,6 +350,7 @@
       <item itemvalue="Application.KeyValue" />
       <item itemvalue="Application.MyInputFormat" />
       <item itemvalue="Application.FlowSortMain" />
+      <item itemvalue="Application.Combiner" />
       <item itemvalue="Application.FlowMain" />
       <item itemvalue="JUnit.HDFSOperate.deleteFile" />
       <item itemvalue="JUnit.HDFSOperate.getFileFromHDFS" />
@@ -415,7 +378,7 @@
       <option name="presentableId" value="Default" />
       <updated>1579265992118</updated>
       <workItem from="1579265995913" duration="1117000" />
-      <workItem from="1579433884112" duration="36590000" />
+      <workItem from="1579433884112" duration="37690000" />
     </task>
     <servers />
   </component>
@@ -452,13 +415,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37707000" />
+    <option name="totallyTimeSpent" value="38807000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="37" y="23" width="1403" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.24324325" visible="true" weight="0.21881682" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.24324325" visible="true" weight="0.21881682" />
       <window_info id="Structure" order="1" sideWeight="0.7567568" side_tool="true" weight="0.16393442" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -468,7 +431,7 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3287841" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36352357" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36352357" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -917,8 +880,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo08/sort/FlowSortMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="183">
+          <caret line="33" column="66" lean-forward="true" selection-start-line="33" selection-start-column="66" selection-end-line="33" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo09/combiner/WordCountMapper.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo09/combiner/WordCountReducer.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo09/combiner/MyCombiner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo09/combiner/WordCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="32" column="45" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
         </state>
       </provider>
     </entry>
