@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cb086f7-c9b5-4769-81ba-d09f916672f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo10/top1/GroupMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo10/top1/GroupMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo10/top1/GroupPartitioner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo10/top1/GroupReducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo10/top1/MyGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo10/top1/OrderBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo11/topn/GroupMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo11/topn/GroupMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo11/topn/GroupPartition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo11/topn/GroupReducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo11/topn/MyGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo11/topn/OrderBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo12/outputformat/MyOutputFormat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo12/outputformat/MyOutputFormatMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo13/reducejoin/ReduceJoinMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo13/reducejoin/ReduceJoinMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo13/reducejoin/ReduceJoinReducer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -32,29 +21,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo12/outputformat/MyOutputFormat.java">
+        <entry file="file://$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo13/reducejoin/ReduceJoinMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="961">
-              <caret line="65" column="35" selection-start-line="65" selection-start-column="35" selection-end-line="65" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#712#713#0" expanded="true" />
-                <element signature="e#744#745#0" expanded="true" />
-                <element signature="e#846#847#0" expanded="true" />
-                <element signature="e#880#881#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="376">
+              <caret line="33" column="19" lean-forward="true" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo13/reducejoin/ReduceJoinReducer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo12/outputformat/MyOutputFormatMain.java">
+        <entry file="file://$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo13/reducejoin/ReduceJoinMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="153">
+              <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -74,9 +62,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo01/wordcount/WordCountMapper.java" />
-        <option value="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo01/wordcount/WordCountReducer.java" />
-        <option value="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo01/wordcount/WordCount.java" />
         <option value="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo02/serialize/FlowMapper.java" />
         <option value="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo02/serialize/FlowReducer.java" />
         <option value="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo02/serialize/FlowMain.java" />
@@ -125,6 +110,9 @@
         <option value="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo11/topn/MyGroup.java" />
         <option value="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo12/outputformat/MyOutputFormatMain.java" />
         <option value="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo12/outputformat/MyOutputFormat.java" />
+        <option value="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo13/reducejoin/ReduceJoinMapper.java" />
+        <option value="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo13/reducejoin/ReduceJoinReducer.java" />
+        <option value="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo13/reducejoin/ReduceJoinMain.java" />
       </list>
     </option>
   </component>
@@ -202,26 +190,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mr" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="bigdata05" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bigdata05" type="462c0819:PsiDirectoryNode" />
-              <item name="mr_day03" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mr" type="462c0819:PsiDirectoryNode" />
-              <item name="wordcount" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bigdata05" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bigdata05" type="462c0819:PsiDirectoryNode" />
-              <item name="mr_day03" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mr" type="462c0819:PsiDirectoryNode" />
-              <item name="outputformat" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -231,7 +199,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580557707946" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580782787302" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -241,6 +209,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo13/reducejoin" />
       <recent name="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo11/topn" />
       <recent name="$PROJECT_DIR$/mr_day03/src/main/java/demo09/combiner" />
       <recent name="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo08/sort" />
@@ -447,7 +416,7 @@
       <option name="presentableId" value="Default" />
       <updated>1579265992118</updated>
       <workItem from="1579265995913" duration="1117000" />
-      <workItem from="1579433884112" duration="49821000" />
+      <workItem from="1579433884112" duration="53884000" />
     </task>
     <servers />
   </component>
@@ -484,13 +453,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50938000" />
+    <option name="totallyTimeSpent" value="55001000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="37" y="23" width="1403" height="877" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.24324325" visible="true" weight="0.19743407" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.24324325" visible="true" weight="0.19743407" />
       <window_info id="Structure" order="1" sideWeight="0.7567568" side_tool="true" weight="0.16393442" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -500,7 +468,7 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3287841" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36352357" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36352357" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -527,30 +495,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mr_day03/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="77" column="17" selection-start-line="13" selection-start-column="4" selection-end-line="86" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mr_day04/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1462">
-          <caret line="86" column="12" selection-start-line="86" selection-start-column="12" selection-end-line="86" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo01/wordcount/WordCountMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo01/wordcount/WordCountReducer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -842,16 +786,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo10/top1/GroupPartitioner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo11/topn/GroupPartition.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -869,30 +803,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo10/top1/GroupReducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo10/top1/OrderBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-37">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo10/top1/MyGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -940,20 +854,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo12/outputformat/MyOutputFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="961">
-          <caret line="65" column="35" selection-start-line="65" selection-start-column="35" selection-end-line="65" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#712#713#0" expanded="true" />
-            <element signature="e#744#745#0" expanded="true" />
-            <element signature="e#846#847#0" expanded="true" />
-            <element signature="e#880#881#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-core/2.6.0-mr1-cdh5.14.2/hadoop-core-2.6.0-mr1-cdh5.14.2.jar!/org/apache/hadoop/mapreduce/lib/output/FileOutputFormat.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -968,6 +868,67 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo10/top1/GroupPartitioner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo10/top1/MyGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo10/top1/GroupReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo12/outputformat/MyOutputFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="723">
+          <caret line="65" column="35" selection-start-line="65" selection-start-column="35" selection-end-line="65" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo13/reducejoin/ReduceJoinMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="33" column="19" lean-forward="true" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo13/reducejoin/ReduceJoinReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo13/reducejoin/ReduceJoinMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
         </state>
       </provider>
     </entry>
