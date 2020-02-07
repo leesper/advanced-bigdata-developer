@@ -20,7 +20,7 @@ public class MapJoinMain extends Configured implements Tool {
         URI uri = new URI("hdfs://node01:8020/cache/pdts.txt");
         Configuration conf = super.getConf();
         //添加文件到分布式缓存
-        DistributedCache.addCacheFile(uri,conf);
+        DistributedCache.addCacheFile(uri, conf);
         //获取job对象
         Job job = Job.getInstance(conf, "mapJoin");
         //读取文件，解析成为key，value对
