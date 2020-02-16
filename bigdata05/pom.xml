@@ -11,7 +11,7 @@
     <modules>
         <module>hdfs_day02</module>
         <module>mr_day03</module>
-        <module>mr_day04</module>
+        <module>hive</module>
     </modules>
 
 
