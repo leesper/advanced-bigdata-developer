@@ -3,7 +3,7 @@ package com.kkb.hive.demo01;
 import java.sql.*;
 
 public class HiveJDBC {
-    private static String url = "jdbc:hive2://node3:10000/";
+    private static String url = "jdbc:hive2://node3:10000/myhive";
 
     public static void main(String[] args) throws Exception {
         Class.forName("org.apache.hive.jdbc.HiveDriver");

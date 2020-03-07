@@ -12,6 +12,8 @@
         <module>hdfs_day02</module>
         <module>mr_day03</module>
         <module>hive</module>
+        <module>hivefunction</module>
+        <module>hbase</module>
     </modules>
 
 

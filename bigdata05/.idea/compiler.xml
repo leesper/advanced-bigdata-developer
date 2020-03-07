@@ -6,8 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="hbase" />
         <module name="hdfs_day02" />
         <module name="hive" />
+        <module name="hivefunction" />
         <module name="mr_day03" />
       </profile>
     </annotationProcessing>

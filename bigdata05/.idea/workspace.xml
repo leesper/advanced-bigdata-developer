@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cb086f7-c9b5-4769-81ba-d09f916672f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hive/hive.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hive/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hive/src/main/java/com/kkb/hive/demo01/HiveJDBC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hbase/hbase.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hbase/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hbase/src/test/java/com/kaikeba/hbase/HBaseOperate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hivefunction/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hivefunction/src/main/java/com/kkb/HiveFunc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hivefunction/src/main/java/com/kkb/udf/MyUDF.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hive/src/main/java/com/kkb/hive/demo01/HiveJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/hive/src/main/java/com/kkb/hive/demo01/HiveJDBC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,6 +19,8 @@
     <ignored path="$PROJECT_DIR$/mr_day03/target/" />
     <ignored path="$PROJECT_DIR$/mr_day04/target/" />
     <ignored path="$PROJECT_DIR$/hive/target/" />
+    <ignored path="$PROJECT_DIR$/hivefunction/target/" />
+    <ignored path="$PROJECT_DIR$/hbase/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,21 +28,24 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hive/src/main/java/com/kkb/hive/demo01/HiveJDBC.java">
+        <entry file="file://$PROJECT_DIR$/hbase/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="237">
+              <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/sql/DriverManager.java">
+        <entry file="file://$PROJECT_DIR$/hbase/src/test/java/com/kaikeba/hbase/HBaseOperate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="663" selection-start-line="663" selection-end-line="663" />
+            <state relative-caret-position="415">
+              <caret line="384" column="5" selection-start-line="384" selection-start-column="5" selection-end-line="384" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -50,17 +59,17 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>HB</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo03/combine/CombineReducer.java" />
-        <option value="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo04/keyvalue/KeyValueMapper.java" />
-        <option value="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo04/keyvalue/KeyValueReducer.java" />
-        <option value="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo04/keyvalue/KeyValue.java" />
-        <option value="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo03/combine/Combine.java" />
         <option value="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo05/NLine/NLineMain.java" />
         <option value="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo06/inputformat/MyRecordReader.java" />
         <option value="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo06/inputformat/MyInputFormat.java" />
@@ -107,33 +116,24 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/hive/src/log4j.properties" />
         <option value="$PROJECT_DIR$/hive/src/main/java/com/kkb/hive/demo01/HiveJDBC.java" />
+        <option value="$PROJECT_DIR$/hivefunction/src/main/java/com/kkb/HiveFunc.java" />
+        <option value="$PROJECT_DIR$/hivefunction/pom.xml" />
+        <option value="$PROJECT_DIR$/hivefunction/src/main/java/com/kkb/udf/MyUDF.java" />
+        <option value="$PROJECT_DIR$/hbase/pom.xml" />
+        <option value="$PROJECT_DIR$/hbase/src/test/java/com/kaikeba/hbase/HBaseOperate.java" />
       </list>
     </option>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="bigdata05" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="hive" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="hive" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="40" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="44" />
     <option name="y" value="23" />
-    <option name="width" value="1400" />
+    <option name="width" value="698" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -154,13 +154,20 @@
             <path>
               <item name="bigdata05" type="b2602c69:ProjectViewProjectNode" />
               <item name="bigdata05" type="462c0819:PsiDirectoryNode" />
-              <item name="hive" type="462c0819:PsiDirectoryNode" />
+              <item name="hbase" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bigdata05" type="b2602c69:ProjectViewProjectNode" />
               <item name="bigdata05" type="462c0819:PsiDirectoryNode" />
-              <item name="hive" type="462c0819:PsiDirectoryNode" />
+              <item name="hbase" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigdata05" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigdata05" type="462c0819:PsiDirectoryNode" />
+              <item name="hbase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -173,7 +180,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581845662899" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583542959613" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -202,7 +209,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HiveJDBC">
+  <component name="RunManager" selected="TestNG.HBaseOperate.filterList">
     <configuration name="Combine" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.kkb.mr.demo03.combine.Combine" />
       <module name="mr_day03" />
@@ -219,37 +226,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlowMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kkb.mr.demo02.serialize.FlowMain" />
-      <module name="mr_day03" />
-      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/../data/2_serialize/input $PROJECT_DIR$/../data/2_serialize/output" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kkb.mr.demo02.serialize.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FlowSortMain" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.kkb.mr.demo08.sort.FlowSortMain" />
       <module name="mr_day03" />
       <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/../data/6_sort $PROJECT_DIR$/../data/6_sort/out" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HiveJDBC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kkb.hive.demo01.HiveJDBC" />
-      <module name="hive" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kkb.hive.demo01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -302,50 +282,92 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HDFSOperate.getFileFromHDFS" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hdfs_day02" />
+    <configuration name="HBaseOperate.contains8" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hbase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kkb.hdfs.*" />
+          <option name="PATTERN" value="com.kaikeba.hbase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.kkb.hdfs" />
-      <option name="MAIN_CLASS_NAME" value="com.kkb.hdfs.HDFSOperate" />
-      <option name="METHOD_NAME" value="getFileFromHDFS" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.kaikeba.hbase" />
+      <option name="MAIN_CLASS_NAME" value="com.kaikeba.hbase.HBaseOperate" />
+      <option name="METHOD_NAME" value="contains8" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HDFSOperate.renameFIle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hdfs_day02" />
+    <configuration name="HBaseOperate.filterList" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hbase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kkb.hdfs.*" />
+          <option name="PATTERN" value="com.kaikeba.hbase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.kkb.hdfs" />
-      <option name="MAIN_CLASS_NAME" value="com.kkb.hdfs.HDFSOperate" />
-      <option name="METHOD_NAME" value="renameFIle" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.kaikeba.hbase" />
+      <option name="MAIN_CLASS_NAME" value="com.kaikeba.hbase.HBaseOperate" />
+      <option name="METHOD_NAME" value="filterList" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HDFSOperate.showFileInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hdfs_day02" />
+    <configuration name="HBaseOperate.hbasePageFilter" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hbase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kkb.hdfs.*" />
+          <option name="PATTERN" value="com.kaikeba.hbase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.kkb.hdfs" />
-      <option name="MAIN_CLASS_NAME" value="com.kkb.hdfs.HDFSOperate" />
-      <option name="METHOD_NAME" value="showFileInfo" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.kaikeba.hbase" />
+      <option name="MAIN_CLASS_NAME" value="com.kaikeba.hbase.HBaseOperate" />
+      <option name="METHOD_NAME" value="hbasePageFilter" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HBaseOperate.prefixFilter" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hbase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kaikeba.hbase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kaikeba.hbase" />
+      <option name="MAIN_CLASS_NAME" value="com.kaikeba.hbase.HBaseOperate" />
+      <option name="METHOD_NAME" value="prefixFilter" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HBaseOperate.singleColumnValueFilter" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hbase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kaikeba.hbase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kaikeba.hbase" />
+      <option name="MAIN_CLASS_NAME" value="com.kaikeba.hbase.HBaseOperate" />
+      <option name="METHOD_NAME" value="singleColumnValueFilter" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -360,19 +382,19 @@
       <item itemvalue="Application.Top1" />
       <item itemvalue="Application.TopN" />
       <item itemvalue="Application.MyOutputFormat" />
-      <item itemvalue="Application.FlowMain" />
-      <item itemvalue="JUnit.HDFSOperate.getFileFromHDFS" />
-      <item itemvalue="JUnit.HDFSOperate.renameFIle" />
-      <item itemvalue="JUnit.HDFSOperate.showFileInfo" />
-      <item itemvalue="Application.HiveJDBC" />
+      <item itemvalue="TestNG.HBaseOperate.contains8" />
+      <item itemvalue="TestNG.HBaseOperate.singleColumnValueFilter" />
+      <item itemvalue="TestNG.HBaseOperate.prefixFilter" />
+      <item itemvalue="TestNG.HBaseOperate.hbasePageFilter" />
+      <item itemvalue="TestNG.HBaseOperate.filterList" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HiveJDBC" />
-        <item itemvalue="Application.FlowMain" />
-        <item itemvalue="JUnit.HDFSOperate.getFileFromHDFS" />
-        <item itemvalue="JUnit.HDFSOperate.showFileInfo" />
-        <item itemvalue="JUnit.HDFSOperate.renameFIle" />
+        <item itemvalue="TestNG.HBaseOperate.filterList" />
+        <item itemvalue="TestNG.HBaseOperate.hbasePageFilter" />
+        <item itemvalue="TestNG.HBaseOperate.prefixFilter" />
+        <item itemvalue="TestNG.HBaseOperate.singleColumnValueFilter" />
+        <item itemvalue="TestNG.HBaseOperate.contains8" />
       </list>
     </recent_temporary>
   </component>
@@ -390,49 +412,53 @@
       <workItem from="1579433884112" duration="55765000" />
       <workItem from="1581605603386" duration="10000" />
       <workItem from="1581609644777" duration="189000" />
-      <workItem from="1581611042163" duration="13687000" />
+      <workItem from="1581611042163" duration="14416000" />
+      <workItem from="1581961158150" duration="3096000" />
+      <workItem from="1582850075901" duration="3000" />
+      <workItem from="1583197931670" duration="12621000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HDFSOperate_uploadFile - 2020.01.21 at 09h 39m 23s.xml">
-      <configuration name="HDFSOperate.uploadFile" configurationId="JUnit" />
+    <history-entry file="HBaseOperate_qualifierFilter - 2020.03.06 at 18h 08m 25s.xml">
+      <configuration name="HBaseOperate.qualifierFilter" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HDFSOperate_downloadFile - 2020.01.21 at 09h 57m 20s.xml">
-      <configuration name="HDFSOperate.downloadFile" configurationId="JUnit" />
+    <history-entry file="HBaseOperate_familyFilter - 2020.03.06 at 18h 09m 45s.xml">
+      <configuration name="HBaseOperate.familyFilter" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HDFSOperate_deleteFile - 2020.01.21 at 10h 05m 18s.xml">
-      <configuration name="HDFSOperate.deleteFile" configurationId="JUnit" />
+    <history-entry file="HBaseOperate_contains8 - 2020.03.06 at 18h 17m 10s.xml">
+      <configuration name="HBaseOperate.contains8" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HDFSOperate_renameFIle - 2020.01.21 at 10h 05m 33s.xml">
-      <configuration name="HDFSOperate.renameFIle" configurationId="JUnit" />
+    <history-entry file="HBaseOperate_singleColumnValueFilter - 2020.03.06 at 18h 20m 23s.xml">
+      <configuration name="HBaseOperate.singleColumnValueFilter" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HDFSOperate_showFileInfo - 2020.01.21 at 10h 24m 11s.xml">
-      <configuration name="HDFSOperate.showFileInfo" configurationId="JUnit" />
+    <history-entry file="HBaseOperate_singleColumnValueFilter - 2020.03.06 at 18h 21m 13s.xml">
+      <configuration name="HBaseOperate.singleColumnValueFilter" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HDFSOperate_getFileFromHDFS - 2020.01.21 at 11h 16m 15s.xml">
-      <configuration name="HDFSOperate.getFileFromHDFS" configurationId="JUnit" />
+    <history-entry file="HBaseOperate_singleColumnValueFilter - 2020.03.06 at 18h 24m 13s.xml">
+      <configuration name="HBaseOperate.singleColumnValueFilter" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HDFSOperate_getFileFromHDFS - 2020.01.21 at 11h 19m 09s.xml">
-      <configuration name="HDFSOperate.getFileFromHDFS" configurationId="JUnit" />
+    <history-entry file="HBaseOperate_prefixFilter - 2020.03.06 at 18h 24m 35s.xml">
+      <configuration name="HBaseOperate.prefixFilter" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HDFSOperate_getFileFromHDFS - 2020.01.21 at 11h 19m 30s.xml">
-      <configuration name="HDFSOperate.getFileFromHDFS" configurationId="JUnit" />
+    <history-entry file="HBaseOperate_hbasePageFilter - 2020.03.06 at 18h 25m 48s.xml">
+      <configuration name="HBaseOperate.hbasePageFilter" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HDFSOperate_getFileFromHDFS - 2020.01.21 at 11h 21m 46s.xml">
-      <configuration name="HDFSOperate.getFileFromHDFS" configurationId="JUnit" />
+    <history-entry file="HBaseOperate_filterList - 2020.03.07 at 08h 24m 28s.xml">
+      <configuration name="HBaseOperate.filterList" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HDFSOperate_getFileFromHDFS - 2020.01.21 at 11h 22m 58s.xml">
-      <configuration name="HDFSOperate.getFileFromHDFS" configurationId="JUnit" />
+    <history-entry file="HBaseOperate_filterList - 2020.03.07 at 08h 24m 49s.xml">
+      <configuration name="HBaseOperate.filterList" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70768000" />
+    <option name="totallyTimeSpent" value="87217000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="40" y="23" width="1400" height="877" extended-state="0" />
+    <frame x="44" y="23" width="1396" height="877" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.24324325" visible="true" weight="0.19785714" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.24324325" visible="true" weight="0.021489972" />
       <window_info id="Structure" order="1" sideWeight="0.7567568" side_tool="true" weight="0.16393442" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -441,12 +467,12 @@
       <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3287841" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30769232" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.2593052" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3846154" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2593052" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3287841" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
@@ -456,7 +482,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.20598717" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.10357143" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.021489972" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Cargo" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -485,43 +511,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo07/partition/FlowReducer.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo07/partition/FlowMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo07/partition/CustomPartitioner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo07/partition/PartitionMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="30" column="42" lean-forward="true" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo02/serialize/FlowBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo08/sort/FlowSortMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -844,7 +833,7 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="43.0" y="14.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="43.0" y="15.0" />
           <SelectedNodes />
           <Categories />
           <SCOPE>All</SCOPE>
@@ -852,13 +841,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hive/src/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="79" selection-start-line="5" selection-start-column="79" selection-end-line="5" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/hive/src/log4j.properties" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/derby/derby/10.11.1.1/derby-10.11.1.1.jar!/org/apache/derby/jdbc/InternalDriver.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
@@ -887,17 +870,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hive/src/main/java/com/kkb/hive/demo01/HiveJDBC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/sql/DriverManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="218">
           <caret line="663" selection-start-line="663" selection-end-line="663" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hive/src/main/java/com/kkb/hive/demo01/HiveJDBC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hivefunction/src/main/java/com/kkb/HiveFunc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#75#76#0" expanded="true" />
+            <element signature="e#107#108#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hivefunction/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="61" column="53" selection-start-line="61" selection-start-column="53" selection-end-line="61" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hivefunction/src/main/java/com/kkb/udf/MyUDF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hbase/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hbase/src/test/java/com/kaikeba/hbase/HBaseOperate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="384" column="5" selection-start-line="384" selection-start-column="5" selection-end-line="384" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
