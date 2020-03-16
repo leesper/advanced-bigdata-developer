@@ -35,6 +35,11 @@
             <version>1.2.0-cdh5.14.2</version>
         </dependency>
         <dependency>
+            <groupId>org.apache.phoenix</groupId>
+            <artifactId>phoenix-core</artifactId>
+            <version>4.14.0-cdh5.14.2</version>
+        </dependency>
+        <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.12</version>

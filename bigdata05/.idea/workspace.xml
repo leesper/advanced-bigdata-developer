@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cb086f7-c9b5-4769-81ba-d09f916672f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hbase_day03/hbase_day03.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hbase_day03/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hbase_day03/src/main/java/com/kaikeba/hbase/demo1/HBaseMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hbase_day03/src/main/java/com/kaikeba/hbase/demo1/ReadMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hbase_day03/src/main/java/com/kaikeba/hbase/demo1/WriteReducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hbase_day03/src/main/java/com/kaikeba/hbase/demo2/HDFS2HBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hbase_day03/src/main/java/com/kaikeba/hbase/demo3/BulkLoadMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hbase_day03/src/main/java/com/kaikeba/hbase/demo3/HBaseBulkLoad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hbase_day03/src/main/java/com/kaikeba/hbase/demo3/LoadData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hbase_day03/src/test/java/com/kkb/phoenix/PhoenixSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hbase_day03/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hbase_day03/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,7 +27,19 @@
         <entry file="file://$PROJECT_DIR$/hbase_day03/src/main/java/com/kaikeba/hbase/demo3/BulkLoadMapper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="18" column="49" lean-forward="true" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+              <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hbase_day03/src/main/java/com/kaikeba/hbase/demo3/HBaseBulkLoad.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,10 +48,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hbase_day03/src/main/java/com/kaikeba/hbase/demo3/HBaseBulkLoad.java">
+        <entry file="file://$PROJECT_DIR$/hbase_day03/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="287">
+              <caret line="40" column="21" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="40" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hbase_day03/src/test/java/com/kkb/phoenix/PhoenixSearch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,7 +100,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo08/sort/FlowBean.java" />
         <option value="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo08/sort/FlowMapper.java" />
         <option value="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo08/sort/FlowReducer.java" />
         <option value="$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo08/sort/SortMain.java" />
@@ -130,7 +141,6 @@
         <option value="$PROJECT_DIR$/hivefunction/src/main/java/com/kkb/udf/MyUDF.java" />
         <option value="$PROJECT_DIR$/hbase/pom.xml" />
         <option value="$PROJECT_DIR$/hbase/src/test/java/com/kaikeba/hbase/HBaseOperate.java" />
-        <option value="$PROJECT_DIR$/hbase_day03/pom.xml" />
         <option value="$PROJECT_DIR$/hbase_day03/src/main/java/com/kaikeba/hbase/mrhbase1/ReadMapper.java" />
         <option value="$PROJECT_DIR$/hbase_day03/src/main/java/com/kaikeba/hbase/demo1/ReadMapper.java" />
         <option value="$PROJECT_DIR$/hbase_day03/src/main/java/com/kaikeba/hbase/demo1/WriteReducer.java" />
@@ -139,6 +149,8 @@
         <option value="$PROJECT_DIR$/hbase_day03/src/main/java/com/kaikeba/hbase/demo3/BulkLoadMapper.java" />
         <option value="$PROJECT_DIR$/hbase_day03/src/main/java/com/kaikeba/hbase/demo3/HBaseBulkLoad.java" />
         <option value="$PROJECT_DIR$/hbase_day03/src/main/java/com/kaikeba/hbase/demo3/LoadData.java" />
+        <option value="$PROJECT_DIR$/hbase_day03/src/test/java/com/kkb/phoenix/PhoenixSearch.java" />
+        <option value="$PROJECT_DIR$/hbase_day03/pom.xml" />
       </list>
     </option>
   </component>
@@ -187,44 +199,7 @@
               <item name="bigdata05" type="462c0819:PsiDirectoryNode" />
               <item name="hbase_day03" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bigdata05" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bigdata05" type="462c0819:PsiDirectoryNode" />
-              <item name="hbase_day03" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bigdata05" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bigdata05" type="462c0819:PsiDirectoryNode" />
-              <item name="hbase_day03" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hbase" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bigdata05" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bigdata05" type="462c0819:PsiDirectoryNode" />
-              <item name="hbase_day03" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hbase" type="462c0819:PsiDirectoryNode" />
-              <item name="demo2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bigdata05" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bigdata05" type="462c0819:PsiDirectoryNode" />
-              <item name="hbase_day03" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hbase" type="462c0819:PsiDirectoryNode" />
-              <item name="demo3" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -235,7 +210,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584170473426" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584372962859" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -264,7 +239,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LoadData">
+  <component name="RunManager" selected="TestNG.PhoenixSearch.queryTable">
     <configuration name="Combine" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.kkb.mr.demo03.combine.Combine" />
       <module name="mr_day03" />
@@ -389,17 +364,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HBaseOperate.filterList" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="hbase" />
+    <configuration name="PhoenixSearch.queryTable" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hbase_day03" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kaikeba.hbase.*" />
+          <option name="PATTERN" value="com.kkb.phoenix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.kaikeba.hbase" />
-      <option name="MAIN_CLASS_NAME" value="com.kaikeba.hbase.HBaseOperate" />
-      <option name="METHOD_NAME" value="filterList" />
+      <option name="PACKAGE_NAME" value="com.kkb.phoenix" />
+      <option name="MAIN_CLASS_NAME" value="com.kkb.phoenix.PhoenixSearch" />
+      <option name="METHOD_NAME" value="queryTable" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -417,19 +392,19 @@
       <item itemvalue="Application.Top1" />
       <item itemvalue="Application.TopN" />
       <item itemvalue="Application.MyOutputFormat" />
-      <item itemvalue="TestNG.HBaseOperate.filterList" />
       <item itemvalue="Application.HBaseMain" />
       <item itemvalue="Application.HDFS2HBase" />
       <item itemvalue="Application.HBaseBulkLoad" />
       <item itemvalue="Application.LoadData" />
+      <item itemvalue="TestNG.PhoenixSearch.queryTable" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.PhoenixSearch.queryTable" />
         <item itemvalue="Application.LoadData" />
         <item itemvalue="Application.HBaseBulkLoad" />
         <item itemvalue="Application.HDFS2HBase" />
         <item itemvalue="Application.HBaseMain" />
-        <item itemvalue="TestNG.HBaseOperate.filterList" />
       </list>
     </recent_temporary>
   </component>
@@ -451,47 +426,47 @@
       <workItem from="1581961158150" duration="3096000" />
       <workItem from="1582850075901" duration="3000" />
       <workItem from="1583197931670" duration="12762000" />
-      <workItem from="1583930441740" duration="12543000" />
+      <workItem from="1583930441740" duration="14070000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HBaseOperate_qualifierFilter - 2020.03.06 at 18h 08m 25s.xml">
-      <configuration name="HBaseOperate.qualifierFilter" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HBaseOperate_familyFilter - 2020.03.06 at 18h 09m 45s.xml">
-      <configuration name="HBaseOperate.familyFilter" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HBaseOperate_contains8 - 2020.03.06 at 18h 17m 10s.xml">
-      <configuration name="HBaseOperate.contains8" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HBaseOperate_singleColumnValueFilter - 2020.03.06 at 18h 20m 23s.xml">
-      <configuration name="HBaseOperate.singleColumnValueFilter" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HBaseOperate_singleColumnValueFilter - 2020.03.06 at 18h 21m 13s.xml">
-      <configuration name="HBaseOperate.singleColumnValueFilter" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HBaseOperate_singleColumnValueFilter - 2020.03.06 at 18h 24m 13s.xml">
-      <configuration name="HBaseOperate.singleColumnValueFilter" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HBaseOperate_prefixFilter - 2020.03.06 at 18h 24m 35s.xml">
-      <configuration name="HBaseOperate.prefixFilter" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HBaseOperate_hbasePageFilter - 2020.03.06 at 18h 25m 48s.xml">
-      <configuration name="HBaseOperate.hbasePageFilter" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="HBaseOperate_filterList - 2020.03.07 at 08h 24m 28s.xml">
       <configuration name="HBaseOperate.filterList" configurationId="TestNG" />
     </history-entry>
     <history-entry file="HBaseOperate_filterList - 2020.03.07 at 08h 24m 49s.xml">
       <configuration name="HBaseOperate.filterList" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="PhoenixSearch_queryTable - 2020.03.16 at 23h 19m 24s.xml">
+      <configuration name="PhoenixSearch.queryTable" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PhoenixSearch_queryTable - 2020.03.16 at 23h 20m 44s.xml">
+      <configuration name="PhoenixSearch.queryTable" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PhoenixSearch_queryTable - 2020.03.16 at 23h 23m 24s.xml">
+      <configuration name="PhoenixSearch.queryTable" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PhoenixSearch_queryTable - 2020.03.16 at 23h 24m 18s.xml">
+      <configuration name="PhoenixSearch.queryTable" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PhoenixSearch_queryTable - 2020.03.16 at 23h 26m 17s.xml">
+      <configuration name="PhoenixSearch.queryTable" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PhoenixSearch_queryTable - 2020.03.16 at 23h 30m 10s.xml">
+      <configuration name="PhoenixSearch.queryTable" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PhoenixSearch_queryTable - 2020.03.16 at 23h 30m 21s.xml">
+      <configuration name="PhoenixSearch.queryTable" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PhoenixSearch_queryTable - 2020.03.16 at 23h 31m 12s.xml">
+      <configuration name="PhoenixSearch.queryTable" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99901000" />
+    <option name="totallyTimeSpent" value="101428000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="44" y="23" width="1396" height="877" extended-state="6" />
+    <frame x="44" y="23" width="1396" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.24324325" visible="true" weight="0.20200573" />
@@ -503,7 +478,7 @@
       <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3287841" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42431763" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30148885" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2593052" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -547,16 +522,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo06/inputformat/MyRecordReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mr_day03/src/main/java/com/kkb/mr/demo10/top1/GroupMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -885,13 +850,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hbase_day03/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1496">
-          <caret line="88" column="12" selection-start-line="88" selection-start-column="12" selection-end-line="88" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hbase_day03/src/main/java/com/kaikeba/hbase/demo1/ReadMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="423">
@@ -932,7 +890,7 @@
     <entry file="file://$PROJECT_DIR$/hbase_day03/src/main/java/com/kaikeba/hbase/demo3/BulkLoadMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" column="49" lean-forward="true" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+          <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -956,13 +914,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hbase_day03/src/main/java/com/kaikeba/hbase/demo3/HBaseBulkLoad.java">
+    <entry file="file://$PROJECT_DIR$/hbase_day03/src/test/java/com/kkb/phoenix/PhoenixSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="148">
+          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hbase_day03/src/main/java/com/kaikeba/hbase/demo3/HBaseBulkLoad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hbase_day03/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="40" column="21" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="40" selection-end-column="21" />
         </state>
       </provider>
     </entry>
