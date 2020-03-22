@@ -15,6 +15,7 @@
         <module>hivefunction</module>
         <module>hbase</module>
         <module>hbase_day03</module>
+        <module>coprocessor</module>
     </modules>
 
 

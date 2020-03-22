@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="coprocessor" />
         <module name="hbase" />
         <module name="hbase_day03" />
         <module name="hdfs_day02" />
